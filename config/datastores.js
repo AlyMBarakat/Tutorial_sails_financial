@@ -52,6 +52,12 @@ module.exports.datastores = {
     // url: 'mysql://user:password@host:port/database',
 
   },
-
+  node_financial_mysql: { // data for data base connection
+    adapter: 'sails_mysql',
+    host: 'local host',
+    user: 'node_financial_admin',
+    password: 'admin',
+    database: 'node_financial',
+  },
 
 };
